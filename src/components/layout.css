@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&family=Girassol&display=swap");
+
+:root {
+  --mainBrown: #ba5741;
+  --mainVanilla: #bf9e0d;
+  --mainGray: #9da39a;
+  --mainWhite: #fff;
+  --mainDark: #222;
+  --mainBg: #eae6e1;
+  --mainColor: #403e42;
+  --font-text: "Bitter", serif;
+  --font-heading: "Girassol", cursive;
+}
+
+body {
+  background-color: var(--mainBg);
+  color: var(--mainColor);
+  font-family: var(--font-text) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading) !important;
+  letter-spacing: 0.25rem !important;
+}
+
+.text-vanilla {
+  color: var(--mainVanilla);
+}
+
+.logo-img {
+  width: 2.5rem;
+}
+
+.cart-icon {
+  font-size: 2rem;
+  color: var(--mainVanilla);
+  cursor: pointer;
+}
