@@ -32,6 +32,10 @@ h6 {
   color: var(--mainVanilla);
 }
 
+.text-brown {
+  color: var(--mainBrown);
+}
+
 .logo-img {
   width: 2.5rem;
 }
@@ -75,7 +79,7 @@ h6 {
   letter-spacing: 1px;
   border-radius: 4rem;
   border: none;
-  transition: all 0.5s;
+  transition: all 0.5s linear;
 }
 
 .btn-default:hover {
