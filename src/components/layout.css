@@ -41,3 +41,48 @@ h6 {
   color: var(--mainVanilla);
   cursor: pointer;
 }
+
+.default-background,
+.about-background {
+  /* min-height: calc(80vh - 66px); */
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to right,
+    rgba(191, 158, 13, 0.2),
+    rgba(191, 158, 13, 0.3)
+  );
+  background-position: center;
+  background-size: cover;
+  opacity: 1 !important;
+}
+
+.about-background {
+  min-height: calc(100vh - 66px);
+  /* min-height: 70vh; */
+}
+
+.title {
+  letter-spacing: 7px !important;
+}
+
+.btn-default {
+  color: var(--mainWhite);
+  background-color: var(--mainBrown);
+  padding: 0.5rem 1.5rem;
+  letter-spacing: 1px;
+  border-radius: 4rem;
+  border: none;
+  transition: all 0.5s;
+}
+
+.btn-default:hover {
+  background-color: var(--mainVanilla);
+  color: var(--mainWhite);
+}
+
+.footer {
+  background-color: var(--mainBrown);
+}
