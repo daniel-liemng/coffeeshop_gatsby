@@ -83,6 +83,11 @@ h6 {
   color: var(--mainWhite);
 }
 
+/* Menu */
+.menu {
+  background-color: var(--mainWhite);
+}
+
 .footer {
   background-color: var(--mainBrown);
 }
